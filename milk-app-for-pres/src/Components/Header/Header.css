@@ -1,0 +1,9 @@
+.header {
+    display: flex;
+    justify-content: center;
+    background: #1a80bb;
+}
+
+.milkLogo {
+    height: 120px;
+}
