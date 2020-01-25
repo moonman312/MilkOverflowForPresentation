@@ -1,0 +1,98 @@
+.access-wrapper{
+    /* border: 1px solid black; */
+    height: 80vh;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+    overflow:hidden;
+}
+.landinginfo {
+    border: 1px solid blue;
+}
+.access{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 98%;
+    height: 60px;
+    border-radius: 15px;
+    /* margin-bottom: 20px; */
+    /* box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75); */
+}
+
+.btns-holder {
+    /* border: 1px solid lightgray; */
+    margin-top: 10px;
+    /* margin-right: 3%; */
+    width: 50%;
+    height: 80%;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+}
+
+.login-btn {
+    border: 2px solid #1a80bb;
+    border-radius: 20px;
+    display: flex;
+    height: 40px;
+    background-color: white;
+    /* justify-content: space-evenly; */
+    /* justify-content: center; */
+    align-items: center;
+    font-size: 25px;
+    color: #1a80bb;
+}
+.login-btn {
+    color: #fff;
+    background-color: #0495c9;
+    border-color: #357ebd; /*set the color you want here*/
+}
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
+    color: #fff;
+    background-color: #00b3db!important;
+    border-color: #285e8e!important; /*set the color you want here*/
+}
+
+.signuplink{
+    text-decoration: none;
+}
+
+.description{
+    margin-bottom: 0;
+}
+
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    width: 80%;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+    overflow:hidden;
+}
+
+.rightspace{
+    margin-right: 20px;
+}
+
+@media screen and (max-width:500px){
+    .map-responsive iframe{
+        height:100%;
+    }
+}
+
+/* @media screen and (min-width:501px){
+    .map-responsive iframe{
+        height:90%;
+    }
+
+} */
